@@ -47,7 +47,7 @@ Each `.ipynb` file is a standalone example that you can run directly.
 2.  **Adjust Parameters (Optional):** At the bottom of each script, inside the `if __name__ == "__main__":` block, you can change the parameters like `SYMBOL`, `TIME_FRAME`, and `NUM_BARS` to analyze different assets.
 3.  **Run from Terminal:** Execute the script from your terminal using the following command:
     ```bash
-    python 
+    click play icon in vscode 
     ```
 4.  **Check the Output:** The script will log its progress in the terminal and save the final chart image (e.g., `BTCUSD_AMA_chart.png`) in the same folder.
 

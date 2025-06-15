@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+mplfinance
+metatrader5
+scipy

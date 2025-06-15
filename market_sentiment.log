@@ -1,0 +1,80 @@
+2025-06-16 00:38:49,670 - INFO - NLTK's VADER lexicon is already downloaded.
+2025-06-16 00:38:49,671 - INFO - Fetching latest market news from Finviz...
+2025-06-16 00:38:50,983 - INFO - Successfully fetched 90 news headlines.
+2025-06-16 00:38:50,991 - INFO - Starting sentiment analysis...
+2025-06-16 00:38:51,041 - INFO - Sentiment analysis complete.
+2025-06-16 00:38:51,095 - INFO - Created and saved to historical_sentiment.csv
+2025-06-16 00:38:51,100 - INFO - 
+--- Analysis Results ---
+Market News Sentiment Analysis
+
+Top 5 Most Positive Headlines
+
+- New ETF gives investors opportunity to act like private equity giant as shift away from public stocks picks up (Score: 0.65)
+
+- Power play: Two money managers bet big on uranium, predict long shelf life for gains (Score: 0.59)
+
+- Nigeria’s Central Bank Halts Dividends, Bonuses for Some Banks (Score: 0.56)
+
+- Republicans may need an AI boom to pay for the 'big, beautiful bill' (Score: 0.54)
+
+- ‘How to Train Your Dragon’ Tops Box Office With $83 Million (Score: 0.51)
+
+Top 5 Most Negative Headlines
+
+- Oil Traders Brace for Turmoil as Iran Crisis Imperils Supply (Score: -0.77)
+
+- India Begins Inspections of Nation’s 787 Jets After Fatal Crash (Score: -0.74)
+
+- UK Walks Tightrope on Israel Amid Iran War and Gaza Pressure (Score: -0.73)
+
+- Fear of Uncertainty Held S&P 500 Back From Record. Now It’s Real (Score: -0.68)
+
+- Israeli, Saudi Stocks Fall as Middle East Conflict Worsens (Score: -0.66)
+
+
+Overall Market Sentiment
+Average Score: -0.080
+Feeling: Generally Negative
+2025-06-16 00:38:51,697 - INFO - Sentiment analysis successfully sent to Telegram.
+2025-06-16 00:44:06,653 - INFO - NLTK's VADER lexicon is already downloaded.
+2025-06-16 00:44:06,694 - INFO - Fetching latest market news from Finviz...
+2025-06-16 00:44:08,065 - INFO - Successfully fetched 90 news headlines.
+2025-06-16 00:44:08,078 - INFO - Starting sentiment analysis...
+2025-06-16 00:44:08,162 - INFO - Sentiment analysis complete.
+2025-06-16 00:44:08,188 - INFO - Appended new sentiment score to historical_sentiment.csv
+2025-06-16 00:44:08,194 - INFO - 
+--- Analysis Results ---
+Market News Sentiment Analysis
+
+Top 5 Most Positive Headlines
+
+- New ETF gives investors opportunity to act like private equity giant as shift away from public stocks picks up (Score: 0.65)
+
+- Power play: Two money managers bet big on uranium, predict long shelf life for gains (Score: 0.59)
+
+- Nigeria’s Central Bank Halts Dividends, Bonuses for Some Banks (Score: 0.56)
+
+- Republicans may need an AI boom to pay for the 'big, beautiful bill' (Score: 0.54)
+
+- ‘How to Train Your Dragon’ Tops Box Office With $83 Million (Score: 0.51)
+
+Top 5 Most Negative Headlines
+
+- Oil Traders Brace for Turmoil as Iran Crisis Imperils Supply (Score: -0.77)
+
+- India Begins Inspections of Nation’s 787 Jets After Fatal Crash (Score: -0.74)
+
+- UK Walks Tightrope on Israel Amid Iran War and Gaza Pressure (Score: -0.73)
+
+- Fear of Uncertainty Held S&P 500 Back From Record. Now It’s Real (Score: -0.68)
+
+- Israeli, Saudi Stocks Fall as Middle East Conflict Worsens (Score: -0.66)
+
+
+Overall Market Sentiment
+Average Score: -0.080
+Feeling: Generally Negative
+2025-06-16 00:44:18,233 - ERROR - Error sending message to Telegram: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot7339332977:AAFgQTkcLo-OAVObhbodIBsvH9D-mO-pGpM/sendMessage (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F40DBF4B90>, 'Connection to api.telegram.org timed out. (connect timeout=10)'))
+2025-06-16 00:44:18,235 - INFO - Attempting to plot data from historical_sentiment.csv...
+2025-06-16 00:44:19,512 - INFO - Sentiment trend chart saved to 'sentiment_trend.png'
